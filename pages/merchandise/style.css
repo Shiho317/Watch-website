@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rasa', serif;
+  font-family: 'Spectral', serif;
+}
+
+/*=============================Desktop================================*/
+@media screen and (min-width: 40rem) {
+  .new-arrivals {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .new-arrivals h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    border-bottom: 2px solid #BFB2AB;
+  }
+  .new-arrivals .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 7.1%;
+    margin: 6.5%;
+  }
+  .new-arrivals .wrap .watch {
+    margin-bottom: 100px;
+  }
+  .new-arrivals .wrap .watch .image {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #BFB2AB;
+  }
+  .new-arrivals .wrap .watch .image .citizen-jewery {
+    width: 350px;
+    height: 350px;
+  }
+  .new-arrivals .wrap .watch .image .mido-silvergold {
+    height: 350px;
+  }
+  .new-arrivals .wrap .watch .image .rado-gold {
+    height: 350px;
+  }
+  .new-arrivals .wrap .watch .upcoming {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #BFB2AB;
+  }
+  .new-arrivals .wrap .watch .details .company {
+    font-size: 20px;
+    width: 350px;
+    height: 25px;
+  }
+  .new-arrivals .wrap .watch .details .name {
+    font-size: 18px;
+    width: 350px;
+    height: 80px;
+  }
+  .new-arrivals .wrap .watch .details .price {
+    font-size: 18px;
+    width: 350px;
+    height: 23px;
+  }
+  .new-arrivals .wrap .watch .button {
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .new-arrivals .wrap .watch .button .addToCart {
+    background-color: #BFB2AB;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .new-arrivals .wrap .watch .button .addToCart:hover {
+    opacity: 0.7;
+  }
+  .new-arrivals .wrap .watch .button .buyNow {
+    background-color: #BFB2AB;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 3px 23px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .new-arrivals .wrap .watch .button .buyNow:hover {
+    background-color: #ffffff;
+    color: #BFB2AB;
+    border: 2px solid #BFB2AB;
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
+  }
+}
+/*# sourceMappingURL=style.css.map */

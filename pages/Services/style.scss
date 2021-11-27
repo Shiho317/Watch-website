@@ -1,0 +1,316 @@
+$cWhite: #ffffff;
+$cBrown: #BFB2AB;
+$cBlack: #000000;
+
+*{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rasa', serif;
+  font-family: 'Spectral', serif;
+}
+
+/*============================mobile==================================*/
+
+.services{
+  width: 100%;
+  border-bottom: 2px solid $cBrown;
+  margin-bottom: 50px;
+
+  & h1{
+    font-size: 20px;
+    text-align: center;
+    color: $cBlack;
+    margin: 0;
+  }
+}
+
+.wrap{
+  display: block;
+  margin: 20px;
+}
+
+.shipping{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+
+  &-logo{
+    display: block;
+    gap: 0px;
+
+    & .shipping-title{
+      margin-top: 10px;
+      color: $cBrown;
+    }
+  }
+
+  & .details{
+    text-align: start;
+
+    & .detail-sec1{
+      font-size: 12px;
+    }
+
+    & .detail-sec2{
+      font-size: 15px;
+    }
+
+    & .detail-sec3{
+      font-size: 12px;
+    }
+  }
+}
+
+.authentic{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+
+  &-logo{
+    display: block;
+    gap: 0px;
+    
+    & .authentic-title{
+      margin-top: 10px;
+      color: $cBrown;
+    }
+  }
+
+  & .details{
+    text-align: start;
+
+    & .detail-sec1{
+      font-size: 12px;
+    }
+
+    & .detail-sec2{
+      font-size: 15px;
+    }
+
+    & .detail-sec3{
+      font-size: 12px;
+    }
+  }
+}
+
+.cancellation{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+
+  &-logo{
+    display: block;
+    gap: 0px;
+    
+    & .cancellation-title{
+      margin-top: 10px;
+      color: $cBrown;
+    }
+  }
+
+  & .details{
+
+    & .detail-sec1{
+      font-size: 12px;
+    }
+
+    & .detail-sec2{
+      font-size: 15px;
+    }
+
+    & .detail-sec3{
+      font-size: 12px;
+    }
+  }
+}
+
+.warranty{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+
+  &-logo{
+    display: block;
+    gap: 0px;
+    
+    & .warranty-title{
+      margin-top: 10px;
+      color: $cBrown;
+    }
+  }
+
+  & .details{
+
+    & .detail-sec1{
+      font-size: 12px;
+    }
+
+    & .detail-sec2{
+      font-size: 15px;
+    }
+
+    & .detail-sec3{
+      font-size: 12px;
+    }
+  }
+}
+
+
+
+/*=============================Desktop================================*/
+
+@media screen and (min-width:1024px){
+
+  .services{
+    width: 100%;
+    border-bottom: 2px solid $cBrown;
+    margin-bottom: 50px;
+
+    & h1{
+      font-size: 40px;
+      text-align: center;
+      color: $cBlack;
+      margin: 0;
+    }
+  }
+
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    gap: 19%;
+  }
+
+  .shipping{
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+
+    &-logo{
+      display: flex;
+      gap: 50px;
+
+      & .shipping-title{
+        margin-top: 50px;
+        color: $cBrown;
+      }
+    }
+
+    & .details{
+
+      & .detail-sec1{
+        font-size: 18px;
+      }
+
+      & .detail-sec2{
+        font-size: 22px;
+      }
+
+      & .detail-sec3{
+        font-size: 18px;
+      }
+    }
+  }
+
+  .authentic{
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+
+    &-logo{
+      display: flex;
+      gap: 50px;
+      
+      & .authentic-title{
+        margin-top: 50px;
+        color: $cBrown;
+      }
+    }
+
+    & .details{
+
+      & .detail-sec1{
+        font-size: 18px;
+      }
+
+      & .detail-sec2{
+        font-size: 22px;
+      }
+
+      & .detail-sec3{
+        font-size: 18px;
+      }
+    }
+  }
+
+  .cancellation{
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+
+    &-logo{
+      display: flex;
+      gap: 50px;
+      
+      & .cancellation-title{
+        margin-top: 50px;
+        color: $cBrown;
+      }
+    }
+
+    & .details{
+
+      & .detail-sec1{
+        font-size: 18px;
+      }
+
+      & .detail-sec2{
+        font-size: 22px;
+      }
+
+      & .detail-sec3{
+        font-size: 18px;
+      }
+    }
+  }
+
+  .warranty{
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+
+    &-logo{
+      display: flex;
+      gap: 50px;
+      
+      & .warranty-title{
+        margin-top: 50px;
+        color: $cBrown;
+      }
+    }
+
+    & .details{
+
+      & .detail-sec1{
+        font-size: 18px;
+      }
+
+      & .detail-sec2{
+        font-size: 22px;
+      }
+
+      & .detail-sec3{
+        font-size: 18px;
+      }
+    }
+  }
+
+}

@@ -4,10 +4,412 @@
   font-family: 'Oswald', sans-serif;
   font-family: 'Rasa', serif;
   font-family: 'Spectral', serif;
+  margin: 0;
+}
+
+/*============================mobile==================================*/
+.new-arrivals {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+}
+
+.new-arrivals h1 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 2px solid #BFB2AB;
+}
+
+.new-arrivals .wrap_new-arrivals {
+  display: block;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.new-arrivals .wrap_new-arrivals .watch {
+  margin-top: 50px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .citizen-jewery {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .mido-silvergold {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .rado-gold {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .upcoming {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details {
+  margin: 10px;
+  padding: 0 20%;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details .company {
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details .name {
+  font-size: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .details .price {
+  font-size: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .addToCart {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .addToCart:hover {
+  opacity: 0.7;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .buyNow {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 23px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .button .buyNow:hover {
+  background-color: #ffffff;
+  color: #BFB2AB;
+  border: 2px solid #BFB2AB;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.best-collections {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+}
+
+.best-collections h1 {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 2px solid #BFB2AB;
+}
+
+.best-collections .wrap_best-collections {
+  display: block;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.best-collections .wrap_best-collections .watch {
+  margin-top: 50px;
+}
+
+.best-collections .wrap_best-collections .watch .image {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.best-collections .wrap_best-collections .watch .image .robhayes-gold {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .wristrogy-gold {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .benson-pinkgold {
+  margin: 10px 10px;
+  height: 180px;
+}
+
+.best-collections .wrap_best-collections .watch .image .mido-silvergold2 {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .upcoming {
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #BFB2AB;
+}
+
+.best-collections .wrap_best-collections .watch .details {
+  margin: 10px;
+  padding: 0 20%;
+}
+
+.best-collections .wrap_best-collections .watch .details .company {
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+}
+
+.best-collections .wrap_best-collections .watch .details .name {
+  font-size: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+.best-collections .wrap_best-collections .watch .details .price {
+  font-size: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.best-collections .wrap_best-collections .watch .button {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.best-collections .wrap_best-collections .watch .button .addToCart {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.best-collections .wrap_best-collections .watch .button .addToCart:hover {
+  opacity: 0.7;
+}
+
+.best-collections .wrap_best-collections .watch .button .buyNow {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 23px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.best-collections .wrap_best-collections .watch .button .buyNow:hover {
+  background-color: #ffffff;
+  color: #BFB2AB;
+  border: 2px solid #BFB2AB;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 12, 39, 0.5);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  z-index: 99;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#overlay .modal-cart {
+  height: 50%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  background-color: #ffffff;
+}
+
+#overlay .modal-cart .close-modal {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#overlay .modal-cart .your-cart {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  padding-top: 22px;
+  background-color: #BFB2AB;
+}
+
+#overlay .modal-cart .inside-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 15%;
+}
+
+#overlay .modal-cart .inside-cart .modal-image {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #BFB2AB;
+}
+
+#overlay .modal-cart .inside-cart .modal-image .modal-watch-image {
+  height: 100px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart {
+  display: block;
+  width: 50%;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .watch-company {
+  font-size: 8px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .watch-name {
+  font-size: 5px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .watch-price {
+  text-align: end;
+  font-size: 8px;
+  margin-right: 30px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .quantity {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .quantity h3 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .quantity #watch-quantity {
+  margin-top: 15px;
+  width: 50px;
+  height: 20px;
+  border: 1px solid #BFB2AB;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .total {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .total h3 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .total span {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .total span .total-price {
+  padding: 0 10px;
+  border: 1px solid #BFB2AB;
+  font-size: 15px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .button-total {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .button-total .lookMore-total {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .button-total .lookMore-total:hover {
+  opacity: 0.7;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .button-total .buyNow-total {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 3px 20px;
+  border-radius: 5px;
+}
+
+#overlay .modal-cart .inside-cart .details-cart .button-total .buyNow-total:hover {
+  background-color: #ffffff;
+  color: #BFB2AB;
+  border: 2px solid #BFB2AB;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
 }
 
 /*=============================Desktop================================*/
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 1024px) {
   .new-arrivals {
     display: block;
     text-align: center;
@@ -25,7 +427,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 7.1%;
+    gap: 5%;
     margin: 6.5%;
   }
   .new-arrivals .wrap_new-arrivals .watch {
@@ -51,10 +453,13 @@
     height: 350px;
     border: 1px solid #BFB2AB;
   }
+  .new-arrivals .wrap_new-arrivals .watch .details {
+    padding: 0;
+  }
   .new-arrivals .wrap_new-arrivals .watch .details .company {
     font-size: 20px;
     width: 350px;
-    height: 25px;
+    height: 30px;
   }
   .new-arrivals .wrap_new-arrivals .watch .details .name {
     font-size: 18px;
@@ -89,7 +494,7 @@
     border: none;
     outline: none;
     color: #ffffff;
-    padding: 3px 23px;
+    padding: 3px 30px;
     border-radius: 5px;
     margin: 10px;
   }
@@ -117,7 +522,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 7.1%;
+    gap: 5%;
     margin: 6.5%;
   }
   .best-collections .wrap_best-collections .watch {
@@ -146,10 +551,13 @@
     height: 350px;
     border: 1px solid #BFB2AB;
   }
+  .best-collections .wrap_best-collections .watch .details {
+    padding: 0;
+  }
   .best-collections .wrap_best-collections .watch .details .company {
     font-size: 20px;
     width: 350px;
-    height: 25px;
+    height: 30px;
   }
   .best-collections .wrap_best-collections .watch .details .name {
     font-size: 18px;
@@ -184,7 +592,7 @@
     border: none;
     outline: none;
     color: #ffffff;
-    padding: 3px 23px;
+    padding: 3px 30px;
     border-radius: 5px;
     margin: 10px;
   }

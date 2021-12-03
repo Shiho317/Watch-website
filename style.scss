@@ -1,0 +1,346 @@
+$cBrown: #bfb2ab;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rasa', serif;
+    font-family: 'Spectral', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+// ========================= mobile ============================================
+@media screen and (max-width:1030px) {
+// ========================= top page ====================
+body {
+    position: relative;
+}
+
+.page1 {
+    height: 100vh;
+
+    .oneArea {
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-bottom: 100vh solid $cBrown;  /* 三角を白にする */ 
+        border-left: 100vw solid transparent;
+    }
+
+    .top {
+        
+        & img {
+            position: absolute;
+            top: 30vh;
+            left: 8px;
+            width: 200px;
+        }
+        &-text {
+
+            & h1 {
+                font-size: 20px;
+                width: 190px;
+                position: absolute;
+                top: 20vh;
+                left: 20px;
+            }
+            & p {
+                font-size: 12px;
+                color: white;
+                width: 180px;
+                position: absolute;
+                top: 65vh;
+                right: 8px;
+            }
+        }
+    }
+} 
+
+// ============================= New collections =====================
+.new {
+
+    margin-top: 50px;
+
+    & h2 {
+        text-align: center;
+        border-bottom: 1px solid $cBrown;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    & img {
+        border: 1px solid $cBrown;
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    &-collections {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5.1%;
+        margin-left: 38px;
+        margin-top: 30px;
+
+        & h6 {
+            width: 100px;
+            height: 100px;
+            background-color: $cBrown;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 10px;
+        }
+    }
+}
+
+// =================== Best collections ================
+.best {
+    margin-top: 50px;
+
+    & h2 {
+        text-align: center;
+        border-bottom: 1px solid $cBrown;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    &-top {
+
+        & img {
+            display: none;
+        }
+
+        &-text {
+
+            margin: 20px;
+
+            & h3 {
+                margin-top: 15px;
+                color: $cBrown;
+                font-size: 25px;
+            }
+
+            & h4 {
+                margin-top: 15px;
+                color: $cBrown;
+                font-size: 25px;
+                text-align: right;
+            }
+
+            & h5 {
+                margin-top: 15px;
+                font-size: 10px;
+                text-align: center;
+            }
+
+            & h6 {
+                display: none;
+            }
+        }
+    }
+
+    &-collections {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5.1%;
+        margin-left: 38px;
+        margin-top: 30px;
+
+        & img {
+            border: 1px solid $cBrown;
+            width: 100px;
+            height: 100px;
+            margin-top: 15px;
+        }
+
+        & h6 {
+            width: 100px;
+            height: 100px;
+            background-color: $cBrown;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 10px;
+        }
+    }
+}
+
+}
+
+
+
+
+
+
+
+// =========================== desk top=================================================
+@media screen and (min-width:1030px) {
+// ========================= top page ====================
+
+body {
+    position: relative;
+}
+
+.page1 {
+    height: 100vh;
+
+    .oneArea {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 35vw;
+        background-color: $cBrown;
+    }
+
+    .top {
+
+        & img {
+            position: absolute;
+            top: 10vh;
+            left: 45%;
+            width: 550px;
+        }
+
+        &-text {
+            position: absolute;
+            top: 30vh;
+            left: 100px;
+
+            & h1 {
+                font-size: 34px;
+            }
+
+            & p {
+                font-size: 18px;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+
+   
+}
+
+
+// ============================= New collections =====================
+.new {
+
+    margin-top: 110px;
+
+    & h2 {
+        width: 328px;
+        font-size: 34px;
+        text-align: right;
+        padding-right: 20px;
+        border-bottom: 1px solid $cBrown;
+        }
+
+    & img {
+    border: 1px solid $cBrown;
+    width: 350px;
+    }
+
+    
+    &-collections {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5.1%;
+        margin-left: 8.9%;
+        margin-top: 90px;
+        
+        & h6 {
+            font-size: 34px;
+            text-align: right;
+            margin-right: 130px;
+        }
+    }
+}
+
+// ======================== Best collections =====================
+.best {
+    position: relative;
+
+    & h2 {
+        width: 328px;
+        font-size: 34px;
+        text-align: right;
+        padding-right: 20px;
+        border-bottom: 1px solid $cBrown;
+    }
+
+    &-top {
+        display: flex;
+        height: 100vh;
+        top: 80px;
+        left: 20px;
+        
+
+        & img {
+            position: absolute;
+            top: 150px;
+            left: 130px;
+            width: 500px;
+            height: 500px;
+            
+            border: 1px solid $cBrown;
+        }
+
+        &-text {
+            position: absolute;
+            width: 37vw;
+            right: 130px;
+            top: 160px;
+            height: 200px;
+
+            & h3 {
+                font-size: 50px;
+                color: $cBrown;
+                margin-top: 30px;
+            }
+            & h4 {
+                font-size: 50px;
+                color: $cBrown;
+                text-align: right;
+                margin: 0px;
+            }
+            & h5 {
+                font-size: 18px;
+                text-align: right;
+                margin-top: 30px;
+            }
+            & h6 {
+                font-size: 34px;
+                margin-top: 3px;
+                text-align: right;
+            }
+        }
+    }
+
+    &-collections {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5.1%;
+        margin-left: 8.9%;
+
+        & img {
+            border: 1px solid $cBrown;
+            width: 350px;
+            height: 350px;
+        }
+
+        & h6 {
+            display: none;
+        }
+    }
+}
+}

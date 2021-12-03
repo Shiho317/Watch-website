@@ -1,0 +1,24 @@
+$cWhite: #ffffff;
+$cBlack: #000000;
+
+.oneArea{
+    & h1{
+       text-align: center;
+       color: $cWhite;
+    }
+
+    & p{
+      text-align: center;
+      color: $cBlack;
+
+      
+    }
+
+    &-code{
+       width: 100%;
+    }
+}
+
+.top{
+   background-color: red;
+}

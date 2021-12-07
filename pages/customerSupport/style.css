@@ -1,1 +1,170 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.customer-support {
+  position: relative;
+}
+
+.customer-support .layer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-image: url("../../src/image/customer-support.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.customer-support .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-color: #bfb2abcb;
+}
+
+.customer-support .layer .title {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.customer-support .layer .title h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.customer-support .layer .title p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+}
+
+.customer-support .contact-way {
+  position: absolute;
+  top: 30vh;
+  margin: 10% 22%;
+  display: block;
+  text-align: center;
+}
+
+.customer-support .contact-way .phone-call {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border: 1px solid #BFB2AB;
+  -webkit-box-shadow: 0 0 5px #BFB2AB;
+          box-shadow: 0 0 5px #BFB2AB;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.customer-support .contact-way .phone-call h3 {
+  font-size: 10px;
+  color: #BFB2AB;
+}
+
+.customer-support .contact-way .phone-call p {
+  font-size: 10px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.customer-support .contact-way .online-chat {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border: 1px solid #BFB2AB;
+  -webkit-box-shadow: 0 0 5px #BFB2AB;
+          box-shadow: 0 0 5px #BFB2AB;
+  border-radius: 10px;
+  margin-top: 5vh;
+  padding: 30px 10px;
+}
+
+.customer-support .contact-way .online-chat button {
+  font-size: 10px;
+  background-color: #BFB2AB;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+
+.customer-support .contact-way .online-chat p {
+  margin-top: 10px;
+  font-size: 10px;
+  color: gray;
+}
+
+/*=============================Desktop================================*/
+@media screen and (min-width: 1024px) {
+  .customer-support .layer-bg {
+    height: 50vh;
+  }
+  .customer-support .layer {
+    height: 50vh;
+  }
+  .customer-support .layer .title {
+    width: 100%;
+  }
+  .customer-support .layer .title h1 {
+    font-size: 40px;
+  }
+  .customer-support .layer .title p {
+    font-size: 15px;
+  }
+  .customer-support .contact-way {
+    position: absolute;
+    top: 40vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 100px;
+    margin: 0;
+  }
+  .customer-support .contact-way .phone-call {
+    width: 300px;
+    height: 300px;
+    border-radius: 0;
+    background-color: #ffffff;
+    padding: 70px 10px;
+  }
+  .customer-support .contact-way .phone-call h3 {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .customer-support .contact-way .phone-call p {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .customer-support .contact-way .online-chat {
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    padding: 70px 10px;
+  }
+  .customer-support .contact-way .online-chat button {
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+  .customer-support .contact-way .online-chat p {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

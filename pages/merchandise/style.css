@@ -49,6 +49,18 @@
   height: 200px;
 }
 
+.new-arrivals .wrap_new-arrivals .watch .image .titan {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .bulova {
+  height: 200px;
+}
+
+.new-arrivals .wrap_new-arrivals .watch .image .bellisma {
+  height: 200px;
+}
+
 .new-arrivals .wrap_new-arrivals .watch .upcoming {
   width: 200px;
   margin: 0 auto;
@@ -162,6 +174,14 @@
 }
 
 .best-collections .wrap_best-collections .watch .image .mido-silvergold2 {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .framingo {
+  height: 200px;
+}
+
+.best-collections .wrap_best-collections .watch .image .jord {
   height: 200px;
 }
 
@@ -448,6 +468,15 @@
   .new-arrivals .wrap_new-arrivals .watch .image .rado-gold {
     height: 350px;
   }
+  .new-arrivals .wrap_new-arrivals .watch .image .titan {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .bulova {
+    height: 350px;
+  }
+  .new-arrivals .wrap_new-arrivals .watch .image .bellisma {
+    height: 350px;
+  }
   .new-arrivals .wrap_new-arrivals .watch .upcoming {
     width: 350px;
     height: 350px;
@@ -544,6 +573,12 @@
     height: 325px;
   }
   .best-collections .wrap_best-collections .watch .image .mido-silvergold2 {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .image .framingo {
+    height: 350px;
+  }
+  .best-collections .wrap_best-collections .watch .image .jord {
     height: 350px;
   }
   .best-collections .wrap_best-collections .watch .upcoming {

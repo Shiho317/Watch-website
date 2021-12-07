@@ -1,0 +1,182 @@
+$cWhite: #ffffff;
+$cBrown: #BFB2AB;
+$cBlack: #000000;
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.customer-support{
+  position: relative;
+
+  & .layer-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-image: url('../../src/image/customer-support.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  & .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: #bfb2abcb;
+
+    & .title{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      & h1{
+      color: $cWhite;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    & p{
+      color: $cWhite;
+      text-align: center;
+      font-size: 10px;
+    }
+    }
+  }
+
+  & .contact-way{
+    position: absolute;
+    top: 30vh;
+    margin: 10% 22%;
+    display: block;
+    text-align: center;
+
+    & .phone-call{
+      display: block;
+      width: 180px;
+      height: 180px;
+      border: 1px solid $cBrown;
+      box-shadow: 0 0 5px $cBrown;
+      border-radius: 10px;
+      padding: 30px 10px;
+
+      & h3{
+        font-size: 10px;
+        color: $cBrown;
+      }
+
+      & p{
+        font-size: 10px;
+        color: gray;
+        margin-top: 10px;
+      }
+    }
+
+    & .online-chat{
+      display: block;
+      width: 180px;
+      height: 180px;
+      border: 1px solid $cBrown;
+      box-shadow: 0 0 5px $cBrown;
+      border-radius: 10px;
+      margin-top: 5vh;
+      padding: 30px 10px;
+
+      & button{
+        font-size: 10px;
+        background-color: $cBrown;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: $cWhite;
+      }
+
+      & p{
+        margin-top: 10px;
+        font-size: 10px;
+        color: gray;
+      }
+    }
+  }
+}
+
+/*=============================Desktop================================*/
+
+@media screen and (min-width:1024px){
+
+  .customer-support{
+
+    & .layer-bg{
+      height: 50vh;
+    }
+
+    & .layer{
+      height: 50vh;
+
+      & .title{
+        width: 100%;
+
+        & h1{
+          font-size: 40px;
+        }
+
+        & p{
+          font-size: 15px;
+        }
+      }
+    }
+
+    & .contact-way{
+      position: absolute;
+      top: 40vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      margin: 0;
+
+      & .phone-call{
+        width: 300px;
+        height: 300px;
+        border-radius: 0;
+        background-color: $cWhite;
+        padding: 70px 10px;
+
+        & h3{
+          margin-top: 15px;
+          font-size: 15px;
+        }
+
+        & p{
+          font-size: 10px;
+          margin-top: 15px;
+        }
+      }
+
+      & .online-chat{
+        width: 300px;
+        height: 300px;
+        margin-top: 0;
+        border-radius: 0;
+        background-color: $cWhite;
+        padding: 70px 10px;
+
+        & button{
+          margin-top: 15px;
+          font-size: 15px;
+          padding: 10px 15px;
+        }
+
+        & p{
+          font-size: 10px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+  

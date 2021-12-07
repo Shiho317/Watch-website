@@ -1,0 +1,275 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rasa', serif;
+  font-family: 'Spectral', serif;
+}
+
+/*============================mobile==================================*/
+.services {
+  width: 100%;
+  border-bottom: 2px solid #BFB2AB;
+  margin-bottom: 50px;
+}
+
+.services h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.wrap {
+  display: block;
+  margin: 20px;
+}
+
+.shipping {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.shipping-logo {
+  display: block;
+  gap: 0px;
+}
+
+.shipping-logo .shipping-title {
+  margin-top: 10px;
+  color: #BFB2AB;
+}
+
+.shipping .details {
+  text-align: start;
+}
+
+.shipping .details .detail-sec1 {
+  font-size: 12px;
+}
+
+.shipping .details .detail-sec2 {
+  font-size: 15px;
+}
+
+.shipping .details .detail-sec3 {
+  font-size: 12px;
+}
+
+.authentic {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.authentic-logo {
+  display: block;
+  gap: 0px;
+}
+
+.authentic-logo .authentic-title {
+  margin-top: 10px;
+  color: #BFB2AB;
+}
+
+.authentic .details {
+  text-align: start;
+}
+
+.authentic .details .detail-sec1 {
+  font-size: 12px;
+}
+
+.authentic .details .detail-sec2 {
+  font-size: 15px;
+}
+
+.authentic .details .detail-sec3 {
+  font-size: 12px;
+}
+
+.cancellation {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.cancellation-logo {
+  display: block;
+  gap: 0px;
+}
+
+.cancellation-logo .cancellation-title {
+  margin-top: 10px;
+  color: #BFB2AB;
+}
+
+.cancellation .details .detail-sec1 {
+  font-size: 12px;
+}
+
+.cancellation .details .detail-sec2 {
+  font-size: 15px;
+}
+
+.cancellation .details .detail-sec3 {
+  font-size: 12px;
+}
+
+.warranty {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.warranty-logo {
+  display: block;
+  gap: 0px;
+}
+
+.warranty-logo .warranty-title {
+  margin-top: 10px;
+  color: #BFB2AB;
+}
+
+.warranty .details .detail-sec1 {
+  font-size: 12px;
+}
+
+.warranty .details .detail-sec2 {
+  font-size: 15px;
+}
+
+.warranty .details .detail-sec3 {
+  font-size: 12px;
+}
+
+/*=============================Desktop================================*/
+@media screen and (min-width: 1024px) {
+  .services {
+    width: 100%;
+    border-bottom: 2px solid #BFB2AB;
+    margin-bottom: 50px;
+  }
+  .services h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+  }
+  .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 10%;
+    gap: 19%;
+  }
+  .shipping {
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .shipping-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+  .shipping-logo .shipping-title {
+    margin-top: 50px;
+    color: #BFB2AB;
+  }
+  .shipping .details .detail-sec1 {
+    font-size: 18px;
+  }
+  .shipping .details .detail-sec2 {
+    font-size: 22px;
+  }
+  .shipping .details .detail-sec3 {
+    font-size: 18px;
+  }
+  .authentic {
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .authentic-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+  .authentic-logo .authentic-title {
+    margin-top: 50px;
+    color: #BFB2AB;
+  }
+  .authentic .details .detail-sec1 {
+    font-size: 18px;
+  }
+  .authentic .details .detail-sec2 {
+    font-size: 22px;
+  }
+  .authentic .details .detail-sec3 {
+    font-size: 18px;
+  }
+  .cancellation {
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .cancellation-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+  .cancellation-logo .cancellation-title {
+    margin-top: 50px;
+    color: #BFB2AB;
+  }
+  .cancellation .details .detail-sec1 {
+    font-size: 18px;
+  }
+  .cancellation .details .detail-sec2 {
+    font-size: 22px;
+  }
+  .cancellation .details .detail-sec3 {
+    font-size: 18px;
+  }
+  .warranty {
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .warranty-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+  }
+  .warranty-logo .warranty-title {
+    margin-top: 50px;
+    color: #BFB2AB;
+  }
+  .warranty .details .detail-sec1 {
+    font-size: 18px;
+  }
+  .warranty .details .detail-sec2 {
+    font-size: 22px;
+  }
+  .warranty .details .detail-sec3 {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
